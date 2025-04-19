@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@theme {
+  --color-periwinkle: #024555;
+  --color-lavander: #c0c9fa;
+}
