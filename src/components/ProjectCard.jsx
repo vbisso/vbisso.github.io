@@ -1,3 +1,4 @@
+import Carousel from "./Carousel";
 export default function ProjectCard({
   imgSrc,
   title,
@@ -12,11 +13,12 @@ export default function ProjectCard({
                  transition-transform transition-shadow duration-300 ease-out"
     >
       {imgSrc && (
-        <img
-          src={imgSrc}
-          alt={title}
-          className="w-full h-48 object-cover rounded-2xl"
-        />
+        // <img
+        //   src={imgSrc}
+        //   alt={title}
+        //   className="w-full h-48 object-cover rounded-2xl"
+        // />
+        <Carousel images={imgSrc} />
       )}
       <div className="flex-grow">
         <h3 className="font-bold text-lg sm:text-2xl mb-2">{title}</h3>

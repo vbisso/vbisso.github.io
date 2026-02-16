@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 const projects = [
   {
     title: "Alpine Trail Co.",
-    imgSrc: "/assets/img/alpinetrailco.png",
+    imgSrc: ["/assets/img/alpinetrailco.png"],
     description:
       "Frontend freelance e-commerce site for a premium off-road accessories company. Translated Figma/UI designs into responsive Next.js + TypeScript + Tailwind components.",
     viewUrl:
@@ -12,14 +12,26 @@ const projects = [
   },
   {
     title: "Kitchen Keeper",
-    imgSrc: "/assets/img/kitchen-keeper.png",
+    imgSrc: [
+      "/assets/img/kk1.png",
+      "/assets/img/kk2.png",
+      "/assets/img/kk3.png",
+      "/assets/img/kk4.png",
+      "/assets/img/kk5.png",
+      "/assets/img/kk6.png",
+      "/assets/img/kk7.png",
+      "/assets/img/kk8.png",
+      "/assets/img/kk9.png",
+      "/assets/img/kk10.png",
+      "/assets/img/kk11.png",
+    ],
     description:
       "Full-stack React Native app that helps users track food inventory and reduce waste. Built with React Native, Node.js, Express, and MongoDB, featuring barcode scanning and an AI-powered data-cleaning pipeline.",
     githubUrl: "https://github.com/vbisso/kitchen-keeper",
   },
   {
     title: "Buddy Reading API",
-    imgSrc: "/assets/img/buddy-reading.png",
+    imgSrc: ["/assets/img/buddy-reading.png"],
     description:
       "A backend web service that simulates a social network where users track their reading progress with friends. Built with Node.js, Express, and MongoDB, featuring RESTful endpoints, Swagger docs, and Jest testing.",
     viewUrl: "https://buddy-reading-tracker.onrender.com/api-docs/",
@@ -28,7 +40,7 @@ const projects = [
 
   {
     title: "Order Tracker Dashboard",
-    imgSrc: "/assets/img/order-tracker.png",
+    imgSrc: ["/assets/img/order-tracker.png"],
     description:
       "Responsive dashboard that simulates an Amazon-style order tracker. Built with React, TypeScript, and Tailwind CSS, featuring integration with a RESTful FakeStore API to dynamically fetch order and product data. Implements reusable components, and interactive filter functions.",
     viewUrl: "https://vbisso.github.io/order-tracker/",
@@ -37,7 +49,7 @@ const projects = [
   },
   {
     title: "Soap Shop Web Application",
-    imgSrc: "/assets/img/soap_shop.png",
+    imgSrc: ["/assets/img/soap_shop.png"],
     description:
       "Full-stack e-commerce site built with Node.js, Express, PostgreSQL, and EJS.",
     viewUrl: "https://soap-shop-cse340.onrender.com/",
@@ -45,7 +57,7 @@ const projects = [
   },
   {
     title: "Island Park Expeditions",
-    imgSrc: "/assets/img/ipe.png",
+    imgSrc: ["/assets/img/ipe.png"],
     description:
       "Static web app with modular JS and EJS templating for local tour company.",
     viewUrl: "https://ip-expeditions.netlify.app/",
