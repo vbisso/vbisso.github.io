@@ -5,9 +5,10 @@ const projects = [
     title: "Alpine Trail Co.",
     imgSrc: "/assets/img/alpinetrailco.png",
     description:
-      "Freelance e-commerce site for a premium off-road accessories company. Translated Figma/UI designs into responsive Next.js + TypeScript + Tailwind components, deployed on Vercel.",
-    viewUrl: "https://alpinetrailco.com/",
-    githubUrl: "https://github.com/vbisso/soap-shop-cse340",
+      "Frontend freelance e-commerce site for a premium off-road accessories company. Translated Figma/UI designs into responsive Next.js + TypeScript + Tailwind components.",
+    viewUrl:
+      "https://autoparts-freelance-9cb83x8xj-valerias-projects-1e59b880.vercel.app/",
+    githubUrl: "https://github.com/vbisso/autoparts-freelance",
   },
   {
     title: "Kitchen Keeper",
